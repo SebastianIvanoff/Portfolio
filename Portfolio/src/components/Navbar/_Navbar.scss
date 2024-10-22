@@ -1,0 +1,21 @@
+.Navbar {
+  background: linear-gradient(90deg, rgba(36,2,2,1) 0%, rgba(117,13,13,1) 71%, rgba(0,0,0,1) 100%);
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+
+  .Nav-Title {
+    color: var(--color-text);
+  }
+  .Links-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    list-style: none;
+
+    .list-item {
+      text-decoration: none;
+      color: var(--color-text);
+    }
+  }
+}
